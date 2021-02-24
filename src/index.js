@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.querySelector('form')
   const ul = document.querySelector('ul#tasks')
-  //grab that shit
+
   form.addEventListener('submit', function(e){
     e.preventDefault();
     const text = form.querySelector('input');
